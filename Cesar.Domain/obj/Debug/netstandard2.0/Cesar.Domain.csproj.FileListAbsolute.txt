@@ -1,0 +1,9 @@
+/Users/diegorrfc/Documents/Cesar/Cesar.Domain/bin/Debug/netstandard2.0/Cesar.Domain.deps.json
+/Users/diegorrfc/Documents/Cesar/Cesar.Domain/bin/Debug/netstandard2.0/Cesar.Domain.dll
+/Users/diegorrfc/Documents/Cesar/Cesar.Domain/bin/Debug/netstandard2.0/Cesar.Domain.pdb
+/Users/diegorrfc/Documents/Cesar/Cesar.Domain/obj/Debug/netstandard2.0/Cesar.Domain.csprojAssemblyReference.cache
+/Users/diegorrfc/Documents/Cesar/Cesar.Domain/obj/Debug/netstandard2.0/Cesar.Domain.csproj.CoreCompileInputs.cache
+/Users/diegorrfc/Documents/Cesar/Cesar.Domain/obj/Debug/netstandard2.0/Cesar.Domain.AssemblyInfoInputs.cache
+/Users/diegorrfc/Documents/Cesar/Cesar.Domain/obj/Debug/netstandard2.0/Cesar.Domain.AssemblyInfo.cs
+/Users/diegorrfc/Documents/Cesar/Cesar.Domain/obj/Debug/netstandard2.0/Cesar.Domain.dll
+/Users/diegorrfc/Documents/Cesar/Cesar.Domain/obj/Debug/netstandard2.0/Cesar.Domain.pdb

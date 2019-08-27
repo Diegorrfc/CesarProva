@@ -1,0 +1,14 @@
+/Users/diegorrfc/Documents/Cesar/Cesar.Tests/bin/Debug/netcoreapp2.1/Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+/Users/diegorrfc/Documents/Cesar/Cesar.Tests/bin/Debug/netcoreapp2.1/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+/Users/diegorrfc/Documents/Cesar/Cesar.Tests/bin/Debug/netcoreapp2.1/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+/Users/diegorrfc/Documents/Cesar/Cesar.Tests/bin/Debug/netcoreapp2.1/Cesar.Tests.deps.json
+/Users/diegorrfc/Documents/Cesar/Cesar.Tests/bin/Debug/netcoreapp2.1/Cesar.Tests.runtimeconfig.json
+/Users/diegorrfc/Documents/Cesar/Cesar.Tests/bin/Debug/netcoreapp2.1/Cesar.Tests.runtimeconfig.dev.json
+/Users/diegorrfc/Documents/Cesar/Cesar.Tests/bin/Debug/netcoreapp2.1/Cesar.Tests.dll
+/Users/diegorrfc/Documents/Cesar/Cesar.Tests/bin/Debug/netcoreapp2.1/Cesar.Tests.pdb
+/Users/diegorrfc/Documents/Cesar/Cesar.Tests/obj/Debug/netcoreapp2.1/Cesar.Tests.csprojAssemblyReference.cache
+/Users/diegorrfc/Documents/Cesar/Cesar.Tests/obj/Debug/netcoreapp2.1/Cesar.Tests.csproj.CoreCompileInputs.cache
+/Users/diegorrfc/Documents/Cesar/Cesar.Tests/obj/Debug/netcoreapp2.1/Cesar.Tests.AssemblyInfoInputs.cache
+/Users/diegorrfc/Documents/Cesar/Cesar.Tests/obj/Debug/netcoreapp2.1/Cesar.Tests.AssemblyInfo.cs
+/Users/diegorrfc/Documents/Cesar/Cesar.Tests/obj/Debug/netcoreapp2.1/Cesar.Tests.dll
+/Users/diegorrfc/Documents/Cesar/Cesar.Tests/obj/Debug/netcoreapp2.1/Cesar.Tests.pdb

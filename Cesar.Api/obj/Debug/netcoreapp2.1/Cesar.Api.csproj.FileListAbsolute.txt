@@ -1,0 +1,14 @@
+/Users/diegorrfc/Documents/Cesar/Cesar.Api/bin/Debug/netcoreapp2.1/Cesar.Api.deps.json
+/Users/diegorrfc/Documents/Cesar/Cesar.Api/bin/Debug/netcoreapp2.1/Cesar.Api.runtimeconfig.json
+/Users/diegorrfc/Documents/Cesar/Cesar.Api/bin/Debug/netcoreapp2.1/Cesar.Api.runtimeconfig.dev.json
+/Users/diegorrfc/Documents/Cesar/Cesar.Api/bin/Debug/netcoreapp2.1/Cesar.Api.dll
+/Users/diegorrfc/Documents/Cesar/Cesar.Api/bin/Debug/netcoreapp2.1/Cesar.Api.pdb
+/Users/diegorrfc/Documents/Cesar/Cesar.Api/obj/Debug/netcoreapp2.1/Cesar.Api.csprojAssemblyReference.cache
+/Users/diegorrfc/Documents/Cesar/Cesar.Api/obj/Debug/netcoreapp2.1/Cesar.Api.csproj.CoreCompileInputs.cache
+/Users/diegorrfc/Documents/Cesar/Cesar.Api/obj/Debug/netcoreapp2.1/Cesar.Api.RazorAssemblyInfo.cache
+/Users/diegorrfc/Documents/Cesar/Cesar.Api/obj/Debug/netcoreapp2.1/Cesar.Api.RazorAssemblyInfo.cs
+/Users/diegorrfc/Documents/Cesar/Cesar.Api/obj/Debug/netcoreapp2.1/Cesar.Api.AssemblyInfoInputs.cache
+/Users/diegorrfc/Documents/Cesar/Cesar.Api/obj/Debug/netcoreapp2.1/Cesar.Api.AssemblyInfo.cs
+/Users/diegorrfc/Documents/Cesar/Cesar.Api/obj/Debug/netcoreapp2.1/Cesar.Api.RazorTargetAssemblyInfo.cache
+/Users/diegorrfc/Documents/Cesar/Cesar.Api/obj/Debug/netcoreapp2.1/Cesar.Api.dll
+/Users/diegorrfc/Documents/Cesar/Cesar.Api/obj/Debug/netcoreapp2.1/Cesar.Api.pdb
