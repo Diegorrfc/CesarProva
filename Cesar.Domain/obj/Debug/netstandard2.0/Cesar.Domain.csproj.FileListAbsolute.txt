@@ -7,3 +7,15 @@
 /Users/diegorrfc/Documents/Cesar/Cesar.Domain/obj/Debug/netstandard2.0/Cesar.Domain.AssemblyInfo.cs
 /Users/diegorrfc/Documents/Cesar/Cesar.Domain/obj/Debug/netstandard2.0/Cesar.Domain.dll
 /Users/diegorrfc/Documents/Cesar/Cesar.Domain/obj/Debug/netstandard2.0/Cesar.Domain.pdb
+C:\Users\d.felix.celestino\Documents\Cesar\CesarProva\Cesar.Domain\bin\Debug\netstandard2.0\Cesar.Domain.deps.json
+C:\Users\d.felix.celestino\Documents\Cesar\CesarProva\Cesar.Domain\bin\Debug\netstandard2.0\Cesar.Domain.dll
+C:\Users\d.felix.celestino\Documents\Cesar\CesarProva\Cesar.Domain\bin\Debug\netstandard2.0\Cesar.Domain.pdb
+C:\Users\d.felix.celestino\Documents\Cesar\CesarProva\Cesar.Domain\bin\Debug\netstandard2.0\Cesar.Shared.dll
+C:\Users\d.felix.celestino\Documents\Cesar\CesarProva\Cesar.Domain\bin\Debug\netstandard2.0\Cesar.Shared.pdb
+C:\Users\d.felix.celestino\Documents\Cesar\CesarProva\Cesar.Domain\obj\Debug\netstandard2.0\Cesar.Domain.csprojAssemblyReference.cache
+C:\Users\d.felix.celestino\Documents\Cesar\CesarProva\Cesar.Domain\obj\Debug\netstandard2.0\Cesar.Domain.csproj.CoreCompileInputs.cache
+C:\Users\d.felix.celestino\Documents\Cesar\CesarProva\Cesar.Domain\obj\Debug\netstandard2.0\Cesar.Domain.AssemblyInfoInputs.cache
+C:\Users\d.felix.celestino\Documents\Cesar\CesarProva\Cesar.Domain\obj\Debug\netstandard2.0\Cesar.Domain.AssemblyInfo.cs
+C:\Users\d.felix.celestino\Documents\Cesar\CesarProva\Cesar.Domain\obj\Debug\netstandard2.0\Cesar.Domain.csproj.CopyComplete
+C:\Users\d.felix.celestino\Documents\Cesar\CesarProva\Cesar.Domain\obj\Debug\netstandard2.0\Cesar.Domain.dll
+C:\Users\d.felix.celestino\Documents\Cesar\CesarProva\Cesar.Domain\obj\Debug\netstandard2.0\Cesar.Domain.pdb

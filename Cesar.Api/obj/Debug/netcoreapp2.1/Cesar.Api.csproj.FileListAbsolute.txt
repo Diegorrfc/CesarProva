@@ -12,3 +12,17 @@
 /Users/diegorrfc/Documents/Cesar/Cesar.Api/obj/Debug/netcoreapp2.1/Cesar.Api.RazorTargetAssemblyInfo.cache
 /Users/diegorrfc/Documents/Cesar/Cesar.Api/obj/Debug/netcoreapp2.1/Cesar.Api.dll
 /Users/diegorrfc/Documents/Cesar/Cesar.Api/obj/Debug/netcoreapp2.1/Cesar.Api.pdb
+C:\Users\d.felix.celestino\Documents\Cesar\CesarProva\Cesar.Api\bin\Debug\netcoreapp2.1\Cesar.Api.deps.json
+C:\Users\d.felix.celestino\Documents\Cesar\CesarProva\Cesar.Api\bin\Debug\netcoreapp2.1\Cesar.Api.runtimeconfig.json
+C:\Users\d.felix.celestino\Documents\Cesar\CesarProva\Cesar.Api\bin\Debug\netcoreapp2.1\Cesar.Api.runtimeconfig.dev.json
+C:\Users\d.felix.celestino\Documents\Cesar\CesarProva\Cesar.Api\bin\Debug\netcoreapp2.1\Cesar.Api.dll
+C:\Users\d.felix.celestino\Documents\Cesar\CesarProva\Cesar.Api\bin\Debug\netcoreapp2.1\Cesar.Api.pdb
+C:\Users\d.felix.celestino\Documents\Cesar\CesarProva\Cesar.Api\obj\Debug\netcoreapp2.1\Cesar.Api.csprojAssemblyReference.cache
+C:\Users\d.felix.celestino\Documents\Cesar\CesarProva\Cesar.Api\obj\Debug\netcoreapp2.1\Cesar.Api.csproj.CoreCompileInputs.cache
+C:\Users\d.felix.celestino\Documents\Cesar\CesarProva\Cesar.Api\obj\Debug\netcoreapp2.1\Cesar.Api.RazorAssemblyInfo.cache
+C:\Users\d.felix.celestino\Documents\Cesar\CesarProva\Cesar.Api\obj\Debug\netcoreapp2.1\Cesar.Api.RazorAssemblyInfo.cs
+C:\Users\d.felix.celestino\Documents\Cesar\CesarProva\Cesar.Api\obj\Debug\netcoreapp2.1\Cesar.Api.AssemblyInfoInputs.cache
+C:\Users\d.felix.celestino\Documents\Cesar\CesarProva\Cesar.Api\obj\Debug\netcoreapp2.1\Cesar.Api.AssemblyInfo.cs
+C:\Users\d.felix.celestino\Documents\Cesar\CesarProva\Cesar.Api\obj\Debug\netcoreapp2.1\Cesar.Api.RazorTargetAssemblyInfo.cache
+C:\Users\d.felix.celestino\Documents\Cesar\CesarProva\Cesar.Api\obj\Debug\netcoreapp2.1\Cesar.Api.dll
+C:\Users\d.felix.celestino\Documents\Cesar\CesarProva\Cesar.Api\obj\Debug\netcoreapp2.1\Cesar.Api.pdb

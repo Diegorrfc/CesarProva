@@ -7,7 +7,7 @@ using Cesar.Shared.utils;
 
 namespace Cesar.Domain.CesarContext.Entities
 {
-    public class Collaborator : Notification
+    public class Collaborator : Entity
     {
         //SOLID
         //S - SÓ TEM COISAS NO COLABORADOR
@@ -15,7 +15,7 @@ namespace Cesar.Domain.CesarContext.Entities
         //L - 
         private readonly int _TIME_ZONE = -3;
         private readonly int _MinimumLengthProjectName = 2;
-        private readonly int _MaximumLengthProjectName = 10;
+        private readonly int _MaximumLengthProjectName = 50;
         private readonly decimal _BaseSalary = 1000;
         public Collaborator(
             Name name,
@@ -26,7 +26,7 @@ namespace Cesar.Domain.CesarContext.Entities
             decimal salary,
             string projectName,
             DateTime birthDate,
-            JobTitle jobTitle)
+            string jobTitle)
         {
             Name = name;
             Document = document;
@@ -39,11 +39,11 @@ namespace Cesar.Domain.CesarContext.Entities
             JobTitle = jobTitle;
             CreateDate = DateTime.UtcNow.AddHours(_TIME_ZONE);
             if (Comparators.IsLengthLessThan(projectName, _MinimumLengthProjectName))
-                AddNotification("Street", $"O projectName {projectName} é inválido. Ele possui o tamamanho menor do que {_MinimumLengthProjectName}");
-            if (Comparators.IsLengthGranThan(projectName, _MaximumLengthProjectName))
-                AddNotification("Street", $"O projectName {projectName} é inválido. Ele possui o tamamanho maior do que {_MaximumLengthProjectName}");
+                AddNotification(nameof(ProjectName), $"O nome do projeto {projectName} é inválido. Ele possui o tamamanho menor do que {_MinimumLengthProjectName}");
+            else if (Comparators.IsLengthGranThan(projectName, _MaximumLengthProjectName))
+                AddNotification(nameof(ProjectName), $"O nome do projeto {projectName} é inválido. Ele possui o tamamanho maior do que {_MaximumLengthProjectName}");
             if (Comparators.IsLessThan(Salary, _BaseSalary))
-                AddNotification("Street", $"O Salary {Salary} é inválido. Ele é menor do que o piso salarial {_BaseSalary}");
+                AddNotification(nameof(Salary), $"O salário {Salary} é inválido. Ele é menor do que o piso salarial {_BaseSalary}");
             
         }
 
@@ -55,7 +55,7 @@ namespace Cesar.Domain.CesarContext.Entities
         public decimal Salary { get; private set; }
         public Address Address { get; private set; }
         public string ProjectName { get; private set; }
-        public JobTitle JobTitle { get; private set; }
+        public string JobTitle { get; private set; }
         public DateTime CreateDate { get; private set; }
 
         public override string ToString()

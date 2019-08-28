@@ -7,3 +7,12 @@
 /Users/diegorrfc/Documents/Cesar/Cesar.Infra/obj/Debug/netstandard2.0/Cesar.Infra.AssemblyInfo.cs
 /Users/diegorrfc/Documents/Cesar/Cesar.Infra/obj/Debug/netstandard2.0/Cesar.Infra.dll
 /Users/diegorrfc/Documents/Cesar/Cesar.Infra/obj/Debug/netstandard2.0/Cesar.Infra.pdb
+C:\Users\d.felix.celestino\Documents\Cesar\CesarProva\Cesar.Infra\bin\Debug\netstandard2.0\Cesar.Infra.deps.json
+C:\Users\d.felix.celestino\Documents\Cesar\CesarProva\Cesar.Infra\bin\Debug\netstandard2.0\Cesar.Infra.dll
+C:\Users\d.felix.celestino\Documents\Cesar\CesarProva\Cesar.Infra\bin\Debug\netstandard2.0\Cesar.Infra.pdb
+C:\Users\d.felix.celestino\Documents\Cesar\CesarProva\Cesar.Infra\obj\Debug\netstandard2.0\Cesar.Infra.csprojAssemblyReference.cache
+C:\Users\d.felix.celestino\Documents\Cesar\CesarProva\Cesar.Infra\obj\Debug\netstandard2.0\Cesar.Infra.csproj.CoreCompileInputs.cache
+C:\Users\d.felix.celestino\Documents\Cesar\CesarProva\Cesar.Infra\obj\Debug\netstandard2.0\Cesar.Infra.AssemblyInfoInputs.cache
+C:\Users\d.felix.celestino\Documents\Cesar\CesarProva\Cesar.Infra\obj\Debug\netstandard2.0\Cesar.Infra.AssemblyInfo.cs
+C:\Users\d.felix.celestino\Documents\Cesar\CesarProva\Cesar.Infra\obj\Debug\netstandard2.0\Cesar.Infra.dll
+C:\Users\d.felix.celestino\Documents\Cesar\CesarProva\Cesar.Infra\obj\Debug\netstandard2.0\Cesar.Infra.pdb

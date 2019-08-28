@@ -179,29 +179,35 @@
     ]
   },
   "packageFolders": {
-    "/Users/diegorrfc/.nuget/packages/": {},
-    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "C:\\Users\\d.felix.celestino\\.nuget\\packages\\": {},
+    "C:\\ProgramData\\Xamarin\\NuGet\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/diegorrfc/Documents/Cesar/Cesar.Shared/Cesar.Shared.csproj",
+      "projectUniqueName": "C:\\Users\\d.felix.celestino\\Documents\\Cesar\\CesarProva\\Cesar.Shared\\Cesar.Shared.csproj",
       "projectName": "Cesar.Shared",
-      "projectPath": "/Users/diegorrfc/Documents/Cesar/Cesar.Shared/Cesar.Shared.csproj",
-      "packagesPath": "/Users/diegorrfc/.nuget/packages/",
-      "outputPath": "/Users/diegorrfc/Documents/Cesar/Cesar.Shared/obj/",
+      "projectPath": "C:\\Users\\d.felix.celestino\\Documents\\Cesar\\CesarProva\\Cesar.Shared\\Cesar.Shared.csproj",
+      "packagesPath": "C:\\Users\\d.felix.celestino\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\d.felix.celestino\\Documents\\Cesar\\CesarProva\\Cesar.Shared\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        "C:\\ProgramData\\Xamarin\\NuGet\\",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/diegorrfc/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\d.felix.celestino\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
       ],
       "sources": {
-        "https://api.nuget.org/v3/index.json": {}
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://comissionamentohml.tlfbpo.com.br/BPONugetServer/nuget": {}
       },
       "frameworks": {
         "netstandard2.0": {

@@ -1,0 +1,9 @@
+C:\Users\d.felix.celestino\Documents\Cesar\CesarProva\Cesar.Shared\bin\Debug\netstandard2.0\Cesar.Shared.deps.json
+C:\Users\d.felix.celestino\Documents\Cesar\CesarProva\Cesar.Shared\bin\Debug\netstandard2.0\Cesar.Shared.dll
+C:\Users\d.felix.celestino\Documents\Cesar\CesarProva\Cesar.Shared\bin\Debug\netstandard2.0\Cesar.Shared.pdb
+C:\Users\d.felix.celestino\Documents\Cesar\CesarProva\Cesar.Shared\obj\Debug\netstandard2.0\Cesar.Shared.csprojAssemblyReference.cache
+C:\Users\d.felix.celestino\Documents\Cesar\CesarProva\Cesar.Shared\obj\Debug\netstandard2.0\Cesar.Shared.csproj.CoreCompileInputs.cache
+C:\Users\d.felix.celestino\Documents\Cesar\CesarProva\Cesar.Shared\obj\Debug\netstandard2.0\Cesar.Shared.AssemblyInfoInputs.cache
+C:\Users\d.felix.celestino\Documents\Cesar\CesarProva\Cesar.Shared\obj\Debug\netstandard2.0\Cesar.Shared.AssemblyInfo.cs
+C:\Users\d.felix.celestino\Documents\Cesar\CesarProva\Cesar.Shared\obj\Debug\netstandard2.0\Cesar.Shared.dll
+C:\Users\d.felix.celestino\Documents\Cesar\CesarProva\Cesar.Shared\obj\Debug\netstandard2.0\Cesar.Shared.pdb

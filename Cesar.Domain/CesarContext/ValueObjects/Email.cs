@@ -11,7 +11,7 @@ namespace Cesar.Domain.CesarContext.ValueObjects
         {
             Address = address;
             if (!Comparators.IsValidEmail(Address))
-                AddNotification("Email", $"O e-mail {Address} não possui um formato válido");
+                AddNotification("E-mail", $"O e-mail {Address} não possui um formato válido");
         }
         public string Address { get; private set; }
         public override string ToString()

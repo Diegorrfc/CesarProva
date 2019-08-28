@@ -6,19 +6,19 @@ namespace Cesar.Shared.utils
     {
         public static bool IsGranThan(int valueToCompare, int valueComparator)
         {
-            return valueToCompare > valueComparator ? true : false;            
+            return valueToCompare > valueComparator ? true : false;
         }
         public static bool IsGranThan(decimal valueToCompare, decimal valueComparator)
         {
-            return valueToCompare > valueComparator ? true : false;            
+            return valueToCompare > valueComparator ? true : false;
         }
         public static bool IsLessThan(decimal valueToCompare, decimal valueComparator)
         {
-            return !IsGranThan(valueToCompare, valueComparator);
+            return valueToCompare < valueComparator ? true : false;
         }
         public static bool IsLessThan(int valueToCompare, int valueComparator)
         {
-            return !IsGranThan(valueToCompare, valueComparator);
+            return valueToCompare < valueComparator ? true : false;
         }
         public static bool IsEqual(int valueTocompare, int valueComparator)
         {
@@ -26,18 +26,18 @@ namespace Cesar.Shared.utils
         }
         public static bool IsLengthGranThan(string valueToCompare, int valueComparator)
         {
-            return valueToCompare.Length > valueComparator ? true : false;
+            return (valueToCompare?.Length > valueComparator && valueToCompare?.Length != null) ? true : false;
         }
         public static bool IsLengthLessThan(string valueToCompare, int valueComparator)
         {
-            return !IsLengthGranThan(valueToCompare, valueComparator);
+            return (valueToCompare?.Length < valueComparator || valueToCompare?.Length == null) ? true : false;
         }
         public static bool IsLengthEqualThan(string valueToCompare, int valueComparator)
         {
-            return valueToCompare.Length == valueComparator ? true : false;
+            return (valueToCompare?.Length != valueComparator) ? false : true;
         }
         public static bool IsValidEmail(string email)
-        {            
+        {
             return Regex.IsMatch(email, @"^([\w-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([\w-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$");
         }
     }

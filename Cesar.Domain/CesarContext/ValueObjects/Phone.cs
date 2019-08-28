@@ -11,10 +11,10 @@ namespace Cesar.Domain.CesarContext.ValueObjects
         public Phone(string phoneNumber)
         {
             PhoneNumber = phoneNumber;
-            if (Comparators.IsLengthEqualThan(phoneNumber, _MinimumLengthNumber))
-                AddNotification("PhoneNumber", $"O número do telefone {phoneNumber} é inválido. Ele possui o tamamanho menor do que {_MinimumLengthNumber}");
-            if (Comparators.IsLengthGranThan(phoneNumber, _MaximumLengthNumber))
-                AddNotification("PhoneNumber", $"O número do telefone {phoneNumber} é inválido. Ele possui o tamamanho maior do que {_MaximumLengthNumber}");
+            if (Comparators.IsLengthLessThan(phoneNumber, _MinimumLengthNumber))
+                AddNotification(nameof(PhoneNumber), $"O número do telefone {phoneNumber} é inválido. Ele possui o tamamanho menor do que {_MinimumLengthNumber}");
+            else if (Comparators.IsLengthGranThan(phoneNumber, _MaximumLengthNumber))
+                AddNotification(nameof(PhoneNumber), $"O número do telefone {phoneNumber} é inválido. Ele possui o tamamanho maior do que {_MaximumLengthNumber}");
 
         }
         public string PhoneNumber { get; private set; }

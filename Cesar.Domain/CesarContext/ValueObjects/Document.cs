@@ -10,8 +10,8 @@ namespace Cesar.Domain.CesarContext.ValueObjects
         public Document(string number)
         {
             Number = number;
-            if (!Comparators.IsLengthEqualThan("Number", _LengthDocument))
-                AddNotification("Number", $"O número do documento possui {number.Length}. Ele precisa ter o tamanho igual a {_LengthDocument}");
+            if (!Comparators.IsLengthEqualThan(number, _LengthDocument))
+                AddNotification(nameof(Number), $"O número do documento possui {number.Length}. Ele precisa ter o tamanho igual a {_LengthDocument}");
         }
         public string Number { get; private set; }
 
