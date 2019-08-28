@@ -6,15 +6,22 @@ namespace Cesar.Domain.CesarContext.ValueObjects
 {
     public class Document : Notification
     {
-        private readonly int _LengthDocument = 11;
+        protected Document()
+        {
+
+        }
         public Document(string number)
         {
             Number = number;
-            if (!Comparators.IsLengthEqualThan(number, _LengthDocument))
-                AddNotification(nameof(Number), $"O número do documento possui {number.Length}. Ele precisa ter o tamanho igual a {_LengthDocument}");
+            if (!Comparators.IsLengthEqualThan(number, Constraints.LengthDocument))
+                AddNotification(nameof(Number), $"O número do documento possui {number.Length}. Ele precisa ter o tamanho igual a {Constraints.LengthDocument}");
         }
         public string Number { get; private set; }
 
+        public class Constraints
+        {
+            public const int LengthDocument = 11;            
+        }
         public override string ToString()
         {
             return Number;

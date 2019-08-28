@@ -16,3 +16,8 @@ C:\Users\d.felix.celestino\Documents\Cesar\CesarProva\Cesar.Infra\obj\Debug\nets
 C:\Users\d.felix.celestino\Documents\Cesar\CesarProva\Cesar.Infra\obj\Debug\netstandard2.0\Cesar.Infra.AssemblyInfo.cs
 C:\Users\d.felix.celestino\Documents\Cesar\CesarProva\Cesar.Infra\obj\Debug\netstandard2.0\Cesar.Infra.dll
 C:\Users\d.felix.celestino\Documents\Cesar\CesarProva\Cesar.Infra\obj\Debug\netstandard2.0\Cesar.Infra.pdb
+C:\Users\d.felix.celestino\Documents\Cesar\CesarProva\Cesar.Infra\bin\Debug\netstandard2.0\Cesar.Domain.dll
+C:\Users\d.felix.celestino\Documents\Cesar\CesarProva\Cesar.Infra\bin\Debug\netstandard2.0\Cesar.Shared.dll
+C:\Users\d.felix.celestino\Documents\Cesar\CesarProva\Cesar.Infra\bin\Debug\netstandard2.0\Cesar.Domain.pdb
+C:\Users\d.felix.celestino\Documents\Cesar\CesarProva\Cesar.Infra\bin\Debug\netstandard2.0\Cesar.Shared.pdb
+C:\Users\d.felix.celestino\Documents\Cesar\CesarProva\Cesar.Infra\obj\Debug\netstandard2.0\Cesar.Infra.csproj.CopyComplete

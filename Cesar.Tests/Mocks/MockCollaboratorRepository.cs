@@ -34,12 +34,12 @@ namespace Cesar.Tests.Mocks
 
         public void Save(Collaborator collaborator)
         {
-            throw new NotImplementedException();
+           
         }
 
         public void Update(Collaborator collaborator)
         {
-            throw new NotImplementedException();
+            
         }
     }
 }

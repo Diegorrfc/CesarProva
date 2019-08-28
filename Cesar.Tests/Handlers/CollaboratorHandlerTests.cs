@@ -8,6 +8,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace Cesar.Tests.Handlers {
     [TestClass]
     public class CollaboratorHandlerTests {
+        [TestMethod]
         public void ShoulRegisterCollaboratorWhenComandIsvalid () {
             var comand = new CreateCollaboratorComand ();
             comand.FirstName = "Diego";
@@ -24,8 +25,10 @@ namespace Cesar.Tests.Handlers {
             comand.District = "Zona sul";
             comand.JobTitle = "Desenvolvedor";
             comand.ProjectName = "Cesar seleção";
+            comand.Number="10";
 
             var hd = new CollaboratorHandler (new MockCollaboratorRepository (), new MockEmailService ());
+            hd.Handle(comand);
             Assert.AreEqual (hd.IsValid (), true);
 
         }

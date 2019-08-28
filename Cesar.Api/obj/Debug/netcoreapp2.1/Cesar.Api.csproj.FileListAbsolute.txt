@@ -26,3 +26,10 @@ C:\Users\d.felix.celestino\Documents\Cesar\CesarProva\Cesar.Api\obj\Debug\netcor
 C:\Users\d.felix.celestino\Documents\Cesar\CesarProva\Cesar.Api\obj\Debug\netcoreapp2.1\Cesar.Api.RazorTargetAssemblyInfo.cache
 C:\Users\d.felix.celestino\Documents\Cesar\CesarProva\Cesar.Api\obj\Debug\netcoreapp2.1\Cesar.Api.dll
 C:\Users\d.felix.celestino\Documents\Cesar\CesarProva\Cesar.Api\obj\Debug\netcoreapp2.1\Cesar.Api.pdb
+C:\Users\d.felix.celestino\Documents\Cesar\CesarProva\Cesar.Api\bin\Debug\netcoreapp2.1\Cesar.Domain.dll
+C:\Users\d.felix.celestino\Documents\Cesar\CesarProva\Cesar.Api\bin\Debug\netcoreapp2.1\Cesar.Infra.dll
+C:\Users\d.felix.celestino\Documents\Cesar\CesarProva\Cesar.Api\bin\Debug\netcoreapp2.1\Cesar.Shared.dll
+C:\Users\d.felix.celestino\Documents\Cesar\CesarProva\Cesar.Api\bin\Debug\netcoreapp2.1\Cesar.Domain.pdb
+C:\Users\d.felix.celestino\Documents\Cesar\CesarProva\Cesar.Api\bin\Debug\netcoreapp2.1\Cesar.Infra.pdb
+C:\Users\d.felix.celestino\Documents\Cesar\CesarProva\Cesar.Api\bin\Debug\netcoreapp2.1\Cesar.Shared.pdb
+C:\Users\d.felix.celestino\Documents\Cesar\CesarProva\Cesar.Api\obj\Debug\netcoreapp2.1\Cesar.Api.csproj.CopyComplete

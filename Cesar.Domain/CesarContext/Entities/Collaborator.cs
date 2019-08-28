@@ -14,9 +14,11 @@ namespace Cesar.Domain.CesarContext.Entities
         //O - ABERTA PARA A EXTENSÃO, FECHADA PARA MODIFICAÇÃO (PRIVATE), SÓ ELA SABE MODIFICAR O ESTADO DELA
         //L - 
         private readonly int _TIME_ZONE = -3;
-        private readonly int _MinimumLengthProjectName = 2;
-        private readonly int _MaximumLengthProjectName = 50;
-        private readonly decimal _BaseSalary = 1000;
+       
+        protected Collaborator()
+        {
+
+        }
         public Collaborator(
             Name name,
             Document document,
@@ -38,12 +40,13 @@ namespace Cesar.Domain.CesarContext.Entities
             BirthDate = birthDate;
             JobTitle = jobTitle;
             CreateDate = DateTime.UtcNow.AddHours(_TIME_ZONE);
-            if (Comparators.IsLengthLessThan(projectName, _MinimumLengthProjectName))
-                AddNotification(nameof(ProjectName), $"O nome do projeto {projectName} é inválido. Ele possui o tamamanho menor do que {_MinimumLengthProjectName}");
-            else if (Comparators.IsLengthGranThan(projectName, _MaximumLengthProjectName))
-                AddNotification(nameof(ProjectName), $"O nome do projeto {projectName} é inválido. Ele possui o tamamanho maior do que {_MaximumLengthProjectName}");
-            if (Comparators.IsLessThan(Salary, _BaseSalary))
-                AddNotification(nameof(Salary), $"O salário {Salary} é inválido. Ele é menor do que o piso salarial {_BaseSalary}");
+
+            if (Comparators.IsLengthLessThan(projectName, Constraints.MinimumLengthProjectName))
+                AddNotification(nameof(ProjectName), $"O nome do projeto {projectName} é inválido. Ele possui o tamamanho menor do que {Constraints.MinimumLengthProjectName}");
+            else if (Comparators.IsLengthGranThan(projectName, Constraints.MaximumLengthProjectName))
+                AddNotification(nameof(ProjectName), $"O nome do projeto {projectName} é inválido. Ele possui o tamamanho maior do que {Constraints.MaximumLengthProjectName}");
+            if (Comparators.IsLessThan(Salary, Constraints.BaseSalary))
+                AddNotification(nameof(Salary), $"O salário {Salary} é inválido. Ele é menor do que o piso salarial {Constraints.BaseSalary}");
             
         }
 
@@ -53,11 +56,18 @@ namespace Cesar.Domain.CesarContext.Entities
         public Phone Phone { get; private set; }
         public DateTime BirthDate { get; private set; }
         public decimal Salary { get; private set; }
-        public Address Address { get; private set; }
+        public Guid IdAddress { get; private set; }
+        public virtual Address Address { get; private set; }
         public string ProjectName { get; private set; }
         public string JobTitle { get; private set; }
         public DateTime CreateDate { get; private set; }
 
+        public class Constraints
+        {
+            public const int MinimumLengthProjectName = 2;
+            public const int MaximumLengthProjectName = 50;
+            public const decimal BaseSalary = 1000;
+        }
         public override string ToString()
         {
             return Name.ToString();
