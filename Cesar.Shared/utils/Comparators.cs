@@ -1,16 +1,24 @@
+using System;
 using System.Text.RegularExpressions;
 
 namespace Cesar.Shared.utils
 {
     public static class Comparators
     {
-        public static bool IsGranThan(int valueToCompare, int valueComparator)
+        public static bool IsGreaterThan(int valueToCompare, int valueComparator)
         {
             return valueToCompare > valueComparator ? true : false;
         }
-        public static bool IsGranThan(decimal valueToCompare, decimal valueComparator)
+        public static bool IsGreaterThan(decimal valueToCompare, decimal valueComparator)
         {
             return valueToCompare > valueComparator ? true : false;
+        }
+        public static bool IsYearOldIsGreaterOrEqual18YearOld(DateTime date)
+        {
+            int valorToCompare = 18;
+            DateTime dateNow = DateTime.Now;
+            var years = dateNow.Subtract(date).TotalDays / 365.0;            
+            return years > valorToCompare ? true : false;
         }
         public static bool IsLessThan(decimal valueToCompare, decimal valueComparator)
         {

@@ -9,10 +9,7 @@ namespace Cesar.Domain.CesarContext.Entities
 {
     public class Collaborator : Entity
     {
-        //SOLID
-        //S - SÓ TEM COISAS NO COLABORADOR
-        //O - ABERTA PARA A EXTENSÃO, FECHADA PARA MODIFICAÇÃO (PRIVATE), SÓ ELA SABE MODIFICAR O ESTADO DELA
-        //L - 
+       
         private readonly int _TIME_ZONE = -3;
        
         protected Collaborator()
@@ -35,6 +32,7 @@ namespace Cesar.Domain.CesarContext.Entities
             Email = email;
             Phone = phone;
             Address = address;
+            IdAddress = Address.Id;
             Salary = salary;
             ProjectName = projectName;
             BirthDate = birthDate;
@@ -47,7 +45,9 @@ namespace Cesar.Domain.CesarContext.Entities
                 AddNotification(nameof(ProjectName), $"O nome do projeto {projectName} é inválido. Ele possui o tamamanho maior do que {Constraints.MaximumLengthProjectName}");
             if (Comparators.IsLessThan(Salary, Constraints.BaseSalary))
                 AddNotification(nameof(Salary), $"O salário {Salary} é inválido. Ele é menor do que o piso salarial {Constraints.BaseSalary}");
-            
+            if (!Comparators.IsYearOldIsGreaterOrEqual18YearOld(BirthDate))
+                AddNotification(nameof(BirthDate), $"O colaborador não poderá ser cadastrado, pois ele possui menos de 18 anos de idade");
+
         }
 
         public Name Name { get; private set; }

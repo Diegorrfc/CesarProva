@@ -9,16 +9,16 @@ namespace Cesar.Tests.Entities {
     [TestCategory ("Entities")]
     public class AddressTests {
         private string _wrongLessStreet = "rua";
-        private string _wrongGranStreet = "raaaaaaaaaaaaaaaaaaaaaaaaaaaaaa";
+        private string _wrongGreaterStreet = "raaaaaaaaaaaaaaaaaaaaaaaaaaaaaa";
         private string _wrongLessNumber = null;
         private string _wrongLessDistrict = "recife";
-        private string _wrongGranDistrict = "oooooooooooooooooooooooooooooooooo";
+        private string _wrongGreaterDistrict = "oooooooooooooooooooooooooooooooooo";
         private string _wrongLessCity = "die";
-        private string _wrongGranCity = "oooooooooooooooooooooooooooooooooooo";
-        private string _wrongGrandCountry = "peqe";
+        private string _wrongGreaterCity = "oooooooooooooooooooooooooooooooooooo";
+        private string _wrongGreaterCountry = "peqe";
         private string _wrongLessCountry = "peqkdafjjjjjdskdddddddddddddddddfd";
         private string _wrongLessZipCode = "zip";
-        private string _wrongGranZipCode = "900909022342";
+        private string _wrongGreaterZipCode = "900909022342";
         public AddressTests () {
 
         }
@@ -43,7 +43,7 @@ namespace Cesar.Tests.Entities {
         public void ShouldReturnSixNotificationWhenAllPropertiesisIsInvalid () {
 
             int qtdNotifications = 6;
-            var document = new Address (_wrongGranStreet, _wrongLessNumber, _wrongGranDistrict, _wrongGranCity, _wrongGrandCountry, _wrongGranZipCode);
+            var document = new Address (_wrongGreaterStreet, _wrongLessNumber, _wrongGreaterDistrict, _wrongGreaterCity, _wrongGreaterCountry, _wrongGreaterZipCode);
             Assert.AreEqual (document.Notifications.Count, qtdNotifications);
             Assert.AreEqual (document.IsValid (), false);
             Assert.AreEqual (document.IsInvalid (), true);
@@ -59,7 +59,7 @@ namespace Cesar.Tests.Entities {
              ConstraintsCorrects.numberCorrect, 
              ConstraintsCorrects.districtCorrect, 
              ConstraintsCorrects.cityCorrect,
-             ConstraintsCorrects.countryCorrect, _wrongGranZipCode);
+             ConstraintsCorrects.countryCorrect, _wrongGreaterZipCode);
             
             Assert.AreEqual (document.Notifications.Count, qtdNotifications);
             Assert.AreEqual (document.IsValid (), false);
@@ -76,7 +76,7 @@ namespace Cesar.Tests.Entities {
              ConstraintsCorrects.numberCorrect, 
              ConstraintsCorrects.districtCorrect, 
              ConstraintsCorrects.cityCorrect,
-            _wrongGrandCountry, ConstraintsCorrects.zipCodeCorrect);
+            _wrongGreaterCountry, ConstraintsCorrects.zipCodeCorrect);
             
             Assert.AreEqual (document.Notifications.Count, qtdNotifications);
             Assert.AreEqual (document.IsValid (), false);
@@ -92,7 +92,7 @@ namespace Cesar.Tests.Entities {
                 ConstraintsCorrects.streetCorrect,
              ConstraintsCorrects.numberCorrect, 
              ConstraintsCorrects.districtCorrect, 
-             _wrongGranCity,
+             _wrongGreaterCity,
             ConstraintsCorrects.countryCorrect, ConstraintsCorrects.zipCodeCorrect);
             
             Assert.AreEqual (document.Notifications.Count, qtdNotifications);
@@ -108,7 +108,7 @@ namespace Cesar.Tests.Entities {
             var document = new Address (
                 ConstraintsCorrects.streetCorrect,
              ConstraintsCorrects.numberCorrect, 
-             _wrongGranDistrict, 
+             _wrongGreaterDistrict, 
              ConstraintsCorrects.cityCorrect,
             ConstraintsCorrects.countryCorrect, ConstraintsCorrects.zipCodeCorrect);
             
@@ -138,7 +138,7 @@ namespace Cesar.Tests.Entities {
             int qtdNotifications = 1;
             
             var document = new Address (
-                _wrongGranStreet,
+                _wrongGreaterStreet,
              ConstraintsCorrects.numberCorrect, 
              ConstraintsCorrects.districtCorrect, 
              ConstraintsCorrects.cityCorrect,

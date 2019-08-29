@@ -1,9 +1,13 @@
+﻿using Cesar.Shared.Comands;
 using System;
-using Cesar.Domain.CesarContext.Entities;
-using Cesar.Shared.Comands;
+using System.Collections.Generic;
+using System.Text;
 
-namespace Cesar.Domain.CesarContext.Commands.CollaboratorComands.Input {
-    public class CreateCollaboratorComand : IComand {
+namespace Cesar.Domain.CesarContext.Commands.CollaboratorComands.Input
+{
+    public class UpdateCollaboratorComand : IComand
+    {
+        public Guid Id { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public string Document { get; set; }
@@ -19,6 +23,5 @@ namespace Cesar.Domain.CesarContext.Commands.CollaboratorComands.Input {
         public string Country { get; set; }
         public string ZipCode { get; set; }
         public string JobTitle { get; set; }
-
     }
 }

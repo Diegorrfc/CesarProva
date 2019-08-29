@@ -19,7 +19,7 @@ namespace Cesar.Tests.Handlers {
             comand.Salary = 2000;
             comand.Street = "rua cais do apolo";
             comand.ZipCode = "52140000";
-            comand.birthDate = DateTime.Now.AddYears (-18);
+            comand.BirthDate = DateTime.Now.AddYears (-18);
             comand.City = "Recife";
             comand.Country = "Brasil";
             comand.District = "Zona sul";

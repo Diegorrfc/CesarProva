@@ -2,9 +2,10 @@ using System;
 using Cesar.Shared.Comands;
 
 namespace Cesar.Domain.CesarContext.Commands.CollaboratorComands.Output {
-    public class CreateCustumerCommandResult : IComandResult {
-        public CreateCustumerCommandResult(){}
-        public CreateCustumerCommandResult(Guid id, string name, string email)
+    public class CreateCollaboratorCommandResult : IComandResult
+    {
+        public CreateCollaboratorCommandResult(){}
+        public CreateCollaboratorCommandResult(Guid id, string name, string email)
         {
             Id = id;     
             Name = name;           

@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using Cesar.Domain.CesarContext.Dtos;
 using Cesar.Domain.CesarContext.Entities;
 using Cesar.Domain.CesarContext.Repositories;
 
@@ -17,17 +18,17 @@ namespace Cesar.Tests.Mocks
             return false;
         }
 
-        public void Delete(Collaborator collaborator)
+        public void Delete(Guid collaborator)
         {
             
         }
 
-        public Collaborator Get(Guid guid)
+        public GetCollaboratorDto Get(Guid guid)
         {
-           return null;
+            return null;
         }
 
-        public List<Collaborator> GetAll()
+        public List<GetCollaboratorDto> GetAll()
         {
             return null;
         }
