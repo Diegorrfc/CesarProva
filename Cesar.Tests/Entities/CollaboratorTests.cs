@@ -26,7 +26,7 @@ namespace Cesar.Tests.Entities {
             _addsress = new Address ("Rua cais do apolo", "222", "recife antigo", "Recife", "Brasil", "52160000");
             _salary = 10000;
             _projectName = "Cesar Educação";
-            _birthDate = DateTime.Now.AddYears (18);
+            _birthDate = DateTime.Now.AddYears (-18);
             
         }
         
@@ -46,14 +46,15 @@ namespace Cesar.Tests.Entities {
         public void ShoudReturnOneNotificationWhenYerOldCollaboratorIsLess18yers()
         {
             DateTime yerOld = DateTime.UtcNow.AddYears(-10);
-            bool collaboratorIsvalid = true;
+            int qtdNotifications = 1;
+            bool collaboratorIsvalid = false;
             var colab = new Collaborator(
                 _name, _document, _email,
                 _phone, _addsress, _salary,
                 _projectName, yerOld, _jobTitle);
 
             bool valid = colab.IsValid();
-
+            Assert.AreEqual(colab.Notifications.Count, qtdNotifications);
             Assert.AreEqual(valid, collaboratorIsvalid);
         }
 

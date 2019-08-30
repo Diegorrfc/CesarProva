@@ -103,10 +103,11 @@ namespace Cesar.Infra.CesarContext.Repositories
         }
 
         public void Update(Collaborator collaborator)
-        {
-            var a  = _context.Collaborator.Find(collaborator.Id);            
-            _context.Entry<Collaborator>(collaborator).State = EntityState.Modified;
+        {            
+            _context.Entry<Address>(collaborator.Address).State = EntityState.Modified;
             _context.SaveChanges();
+            _context.Entry<Collaborator>(collaborator).State = EntityState.Modified;
+            _context.SaveChanges();            
         }
     }
 }

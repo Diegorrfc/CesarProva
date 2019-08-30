@@ -25,7 +25,7 @@ namespace Cesar.Domain.CesarContext.Entities
         public string City { get; private set; }
         public string Country { get; private set; }
         public string ZipCode { get; private set; }
-        public Guid IdCollaborator { get; private set; }
+        //public Guid IdCollaborator { get; private set; }
         public virtual Collaborator Collaborator { get; private set; }
         public override string ToString()
         {

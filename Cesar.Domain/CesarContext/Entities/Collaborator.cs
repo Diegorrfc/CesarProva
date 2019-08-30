@@ -32,7 +32,7 @@ namespace Cesar.Domain.CesarContext.Entities
             Email = email;
             Phone = phone;
             Address = address;
-            IdAddress = Address.Id;
+            IdAddress = address.Id;
             Salary = salary;
             ProjectName = projectName;
             BirthDate = birthDate;
@@ -67,6 +67,10 @@ namespace Cesar.Domain.CesarContext.Entities
             public const int MinimumLengthProjectName = 2;
             public const int MaximumLengthProjectName = 50;
             public const decimal BaseSalary = 1000;
+        }
+        public void AddAddress(Guid IdAddress)
+        {
+            this.IdAddress = IdAddress;
         }
         public override string ToString()
         {

@@ -26,11 +26,9 @@ namespace Cesar.Infra.EntityConfig
             builder.Property(prop => prop.ZipCode)
               .HasMaxLength(Address.Constraints.MaximumLengthZipCode);
             builder.HasOne(m => m.Collaborator)
-                .WithOne(n => n.Address)
+                .WithOne(n => n.Address).HasForeignKey<Collaborator>(n=>n.IdAddress)
             .OnDelete(DeleteBehavior.Restrict);
-
-
-
+           
         }
 }
 }

@@ -15,10 +15,7 @@ namespace Cesar.Infra.EntityConfig
         public void Configure(EntityTypeBuilder<Collaborator> builder)
         {
             builder.Property(t => t.Id).ValueGeneratedNever();
-
-            builder.HasOne(m => m.Address).WithOne()
-                 .HasForeignKey<Address>(b => b.IdCollaborator)
-            .OnDelete(DeleteBehavior.Restrict);
+                  
             
 
             builder.OwnsOne(m => m.Name, a =>
@@ -52,8 +49,7 @@ namespace Cesar.Infra.EntityConfig
                     .HasColumnName("PhoneNumber")
                     .HasDefaultValue("");
 
-            });
-            //builder.HasKey(p => p.Id,).DatabaseGeneratedOption
+            });          
             
 
 

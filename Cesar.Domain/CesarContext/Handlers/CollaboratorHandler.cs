@@ -57,11 +57,14 @@ namespace Cesar.Domain.CesarContext.Handlers
             var document = new Document(comand.Document);
             var email = new Email(comand.Email);
             var address = new Address(comand.Street, comand.Number, comand.District, comand.City, comand.Country, comand.ZipCode);
+            var idAdd = _collaboratorRepository.Get(comand.Id).IdAddress;
+            address.Id = idAdd;
             var phone = new Phone(comand.Phone);
             var collaborator = new Collaborator(name, document, email, phone, address, comand.Salary, comand.ProjectName, comand.BirthDate, comand.JobTitle)
             {
                 Id = comand.Id
-            };
+            };         
+            
             AddNotifications(collaborator);
             AddNotifications(name);
             AddNotifications(document);
